@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [
+
+  ],
+  "scripts": {
+    "dev": "",
+    "test": "mocha --require ./tests/mocha.setup.cjs ./tests/tests.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "jsdom": "^24.1.0",
+    "mocha": "^10.8.0"
+  }
+}

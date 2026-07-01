@@ -1,0 +1,26 @@
+#mocha {
+  font-family: Arial, sans-serif;
+  margin: 1.5rem 0;
+  color: #1f2937;
+}
+
+#mocha .suite {
+  margin: 1rem 0;
+}
+
+#mocha .test {
+  margin: 0.5rem 0;
+}
+
+#mocha .pass {
+  color: #15803d;
+}
+
+#mocha .fail {
+  color: #b91c1c;
+}
+
+#mocha .duration {
+  color: #6b7280;
+  font-size: 0.9rem;
+}

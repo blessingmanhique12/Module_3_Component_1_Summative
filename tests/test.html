@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component 1 Browser Tests</title>
+
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+</head>
+<body>
+
+    <h1>Component 1 - Mocha + Chai Browser Tests</h1>
+
+    <p>
+        Open this file in the browser to test your JavaScript array methods.
+    </p>
+
+    <div id="outputElement"></div>
+    <div id="mocha"></div>
+
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script>
+        mocha.setup("bdd");
+        window.expect = chai.expect;
+    </script>
+
+    <script type="module">
+        import '../script.js';
+        import './tests.js';
+        mocha.run();
+    </script>
+
+</body>
+</html>
