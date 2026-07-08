@@ -3,7 +3,7 @@
 // SECTION A
 // ===========================================
 
-const runTasksButton = document.getElementById("runTasksBtn");
+const runTasksButton = document.getElementById("runTasksButton");
 const outputElement = "";
 
 // ===========================================

@@ -2,6 +2,7 @@
 **Before you start working, run `npm install` on your terminal**
 ## Files
 
+**- DO NOT EDIT OR WORK ON THE `tests/` FOLDER**
 - `index.html` - learner page
 - `script.js` - learner completes the array tasks here
 - `test.html` - browser test runner
@@ -9,7 +10,7 @@
 **- Questions are provided in the `script.js` file as well as the question sheet handout**
 **- Push your work to GitHub and submit the link as instructed on your question paper**
 
-## How You can test your work
+## How You can test your work (Optional)
 
 1. Open `index.html` in the browser.
 2. Click **Run Tasks** to see the output on the page.

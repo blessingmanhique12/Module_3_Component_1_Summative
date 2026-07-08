@@ -1,7 +1,7 @@
 const { JSDOM } = require('jsdom');
 const chai = require('chai');
 
-const dom = new JSDOM('<!DOCTYPE html><html><body><button id="runTasksBtn">Run Tasks</button><div id="outputElement"></div></body></html>', {
+const dom = new JSDOM('<!DOCTYPE html><html><body><button id="runTasksButton">Run Tasks</button><div id="outputElement"></div></body></html>', {
   url: 'http://localhost/'
 });
 
