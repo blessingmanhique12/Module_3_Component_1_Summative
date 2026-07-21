@@ -4,7 +4,7 @@
 // ===========================================
 
 const runTasksButton = document.getElementById("runTasksButton");
-const outputElement = "";
+const outputElement = document.getElementsByClassName("BrowserOutput");
 
 // ===========================================
 // DATA
@@ -23,32 +23,48 @@ export function addMark() {
     //add 70 to the end of the marks array
     // Return the updated marks array
 }
+marks.push(70);
+console.log(addMark)
 
 // Task 2
 export function getMarksOver60() {
     // Return marks greater than 60
-}
 
+}
+let getMarksOver60 = addMark.filter(function(marks)
+{
+    return marks > 60
+    console.log(getMarksOver60)
+})
 // Task 3
 export function increaseMarksBy5() {
     // Return a new array where each mark is increased by 5
 }
-
+let increaseMarksBy5 = getMarksOver60.map(function(num)
+{
+    return num += 5
+});
+console.log(increaseMarksBy5)
 // Task 4
 export function getTotalMarks() {
     // Return the total of all marks
 }
-
+getTotalMarks = print(increasedMarksBy5)
 // Task 5
 export function findFirstMarkOver80() {
     // Return the first mark greater than 80
 }
-
+findFirstMarkOver80 = getTotalMarks.filter(function(num)
+{
+    return num > 80
+});
+console.log(findFirstMarkOver80)
 // Task 6
 export function sortMarksLowestToHighest() {
     // Return marks sorted from lowest to highest
 }
-
+let sortMarksLowestToHighest = getTotalMarks.sort();
+console.log(sortMarksLowestToHighest);
 // ===========================================
 // PROVIDED FUNCTIONS
 // DO NOT EDIT
@@ -70,7 +86,7 @@ export function displayResult(taskName, result) {
 export function runTasks() {
 
     if (outputElement) {
-        outputElement.innerHTML = "";
+        outputElement.innerHTML = ("");
     }
 
     displayResult("Task 1", addMark());
@@ -86,5 +102,4 @@ export function runTasks() {
 // ADD EVENT LISTENER
 // SECTION A 
 // ===========================================
-
-runTasksButton
+runTasksButton = Document.addEventListener
